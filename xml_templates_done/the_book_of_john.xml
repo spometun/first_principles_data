@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+  <translation>
+    <language_name_in_english>Russian</language_name_in_english>
+    <language_name_local>Русский</language_name_local>
+    <translator1_name>Yauheni Sobaleu</translator1_name>
+    <translator1_email>sblfff@gmail.com</translator1_email>
+    <translator1_date>2015-12-01</translator1_date>
+  </translation>
+  <page_title>
+    <english>The Book of John</english>
+    <translated>???</translated>
+  </page_title>
+  <page_headline>
+    <english>The Book of John</english>
+    <translated>???</translated>
+  </page_headline>
+  <audio>
+    <text_intro_english>Download audio:</text_intro_english>
+    <text_intro_translated>???</text_intro_translated>
+    <text_mp3_english>MP3</text_mp3_english>
+    <text_mp3_translated>???</text_mp3_translated>
+    <link_mp3>lang/en/fp/audio/mp3/01-The_Book_of_John.mp3</link_mp3>
+    <text_m4a_english>M4A</text_m4a_english>
+    <text_m4a_translated>???</text_m4a_translated>
+    <link_m4a>lang/en/fp/audio/m4a/01-The_Book_of_John.m4a</link_m4a>
+    <text_ogg_english>OGG</text_ogg_english>
+    <text_ogg_translated>???</text_ogg_translated>
+    <link_ogg>lang/en/fp/audio/ogg/01-The_Book_of_John.ogg</link_ogg>
+  </audio>
+  <phrase1>
+    <english>Home</english>
+    <translated>???</translated>
+    <link>???</link>
+  </phrase1>
+  <phrase2>
+    <english>Contact Us</english>
+    <translated>???</translated>
+    <link>???</link>
+  </phrase2>
+  <phrase3>
+    <english>© 2013 International Christian Churches (SoldOut Discipling Movement)</english>
+    <translated>???</translated>
+  </phrase3>
+</document>

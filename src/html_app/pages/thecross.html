@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>The Cross</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+	<link rel="stylesheet" type="text/css" href="/jquery/jquery.mobile-1.1.0.min.css" />
+	<script type="text/javascript" src="/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/jquery/jquery.mobile-1.1.0.min.js"></script>
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon-precomposed.png" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+</head>
+<body>
+
+<div data-role="page" data-dom-cache="true" id="thecross" data-title="The Cross">
+	<div data-role="header" data-theme="b">
+		<h1>The Cross</h1>
+        <a href="/"  data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
+	</div>
+	<div data-role="content" data-theme="d">
+	
+		<div class="usd21audio">
+		<div class="usd21audiodownload">
+		<div class="usd21audio">Download audio: &nbsp;
+		<a href="http://www.usd21.org/m/lang/en/fp/audio/mp3/08-The_Cross.mp3" rel="external">MP3</a> | 
+		<a href="http://www.usd21.org/m/lang/en/fp/audio/m4a/08-The_Cross.m4a" rel="external">M4A</a> | 
+		<a href="http://www.usd21.org/m/lang/en/fp/audio/ogg/08-The_Cross.ogg" rel="external">OGG</a>
+		</div>
+		<audio controls="controls">
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/ogg/08-The_Cross.ogg" type="audio/ogg" />
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/m4a/08-The_Cross.m4a" type="audio/aac" />
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/mp3/08-The_Cross.mp3" type="audio/mpeg" />
+		</audio>
+		</div>
+		</div>
+	
+    <ol>
+    	<li><strong>Passion Account</strong>
+        	<p>Read <strong><a data-rel="dialog" href="/scriptures/matthew-26-31-28-10.html">Matthew 26:31-28:10</a></strong></p>
+            <p>
+            Suggested Reading Intervals:
+            <br><strong>26:31-35</strong>
+            <br><strong>26:36-46</strong>
+            <br><strong>26:47-56</strong>
+            <br><strong>26:57-68</strong>
+            <br><strong>26:69-75</strong>
+            <br><strong>27:1-10</strong>
+            <br><strong>27:11-26</strong>
+            <br><strong>27:27-31</strong>
+            <br><strong>27:32-44</strong>
+            <br><strong>27:45-56</strong>
+            <br><strong>27:57-61</strong>
+            <br><strong>27:62-66</strong>
+            <br><strong>28:1-10</strong>
+            </p>
+        </li>
+        <li><strong>Physical Death</strong>
+        	<p>Read the <a href="medicalaccount.html">medical account</a> of Jesus' physical death.</p>
+        </li>
+        <li><strong>Personal Responsibility</strong>
+        	<ol>
+            	<li>Remember that there were many others who died by crucifixion in the first century.  It was not that Jesus was physically crucified that makes Him unique; it was that He was crucified for you, in your place.  He died on the cross for you.</li>
+                <li><strong><a data-rel="dialog" href="/scriptures/romans-3-23.html">Romans 3:23</a></strong></li>
+                <li><strong><a data-rel="dialog" href="/scriptures/isaiah-59-1-2.html">Isaiah 59:1-2</a></strong></li>
+                <li><strong><a data-rel="dialog" href="/scriptures/matthew-27-46.html">Matthew 27:46</a></strong></li>
+                <li>Share the sins that you committed before being baptized and your feelings of being forgiven at baptism.  Ask the person with whom you are studying to share and confess their sins.</li>
+                <li><strong><a data-rel="dialog" href="/scriptures/isaiah-53-4-6.html">Isaiah 53:4-6</a></strong> (substitute your name).</li>
+                <li>If possible immediately after this study watch either <strong>The Cross</strong> or <strong>The Passion</strong> video.</li>
+            </ol>
+        </li>
+    </ol>
+	</div>
+	<div data-role="footer" data-theme="b">
+
+		<div class="fpPageFooter">
+
+		<a href="/"  data-role="button" data-icon="home" data-iconpos="left" data-direction="reverse">Home</a> <a href="contactus.html" data-role="button">Contact Us</a>
+
+		<div class='social'>
+		<a href='http://www.facebook.com/sharer.php?u=http://usd21.org/m/' class='social_icon facebook' rel="nofollow"></a>
+		<a href='https://twitter.com/share?url=http://usd21.org/m/' class='social_icon twitter' rel="nofollow"></a>
+		<a class='social_icon googleplus' href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://usd21.org/m/" rel="nofollow" ></a>
+		<div style='clear:both'></div>
+		</div>
+		
+        <div class="fpPageFooterImages">
+		<a href="http://www.usd21.org/" data-direction="reverse" rel="external"><img src="/images/usd21_2012_logo.png" width="215" height="52" border="0" alt="UpsideDown21"></a>
+		<br><img src="/images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
+        </div> <!-- End div.fpPageFooterImages -->
+
+        &copy; 2013 International Christian Churches (SoldOut Discipling Movement)
+
+        </div> <!-- End div.fpPageFooter -->
+
+	</div>
+</div>
+
+<script type="text/javascript">
+
+$('[data-role=page]').live('pageshow', function (event, ui) {
+
+	// Turn off any embedded audio that might still be playing from the audio tag of another page
+	try {
+		var audioElement = document.getElementsByTagName('audio'); 
+		audioElement.pause();
+	} catch(err) {
+		
+	}
+
+});
+
+</script>
+
+</body>
+</html>
