@@ -9,48 +9,21 @@
 
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<title> Introduction2 </title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.1.0.min.css" />
-	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="jquery/jquery.mobile-1.1.0.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> </meta>
+	<meta charset="utf-8"> </meta>
+	<title> Introduction </title>
+	<link rel="stylesheet" type="text/css" href="/home/spometun/Desktop/fp/src/html_app/style.css" />
+	<link rel="stylesheet" type="text/css" href="/home/spometun/Desktop/fp/src/html_app/jquery/jquery.mobile-1.1.0.min.css" />
+	<script type="text/javascript" src="/home/spometun/Desktop/fp/src/html_app/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/home/spometun/Desktop/fp/src/html_app/jquery/jquery.mobile-1.1.0.min.js"></script>
+
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 	<link rel="apple-touch-icon" href="images/apple-touch-icon-precomposed.png" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 
-<script>
-
-//$.getJSON("/home/spometun/Desktop/fp/src/html_app/text/ru/introduction.json", function(json)
-$.getJSON("introduction.json", function(json)  
-{
-//    console.log(json); // this will show the info it in firebug console
-//	console.log(document.title);
-	document.title = json.document.page_title.translated;
-	document.getElementById('page_headline').innerHTML = json.document.page_headline.translated;
-	document.getElementById('audio.text_intro').innerHTML = json.document.audio.text_intro_translated;
-
-	document.getElementById('phrase1').innerHTML = json.document.phrase1.translated;
-	document.getElementById('phrase2').innerHTML = json.document.phrase2.translated;
-	document.getElementById('phrase3').innerHTML = json.document.phrase3.translated;	
-	document.getElementById('phrase4').innerHTML = json.document.phrase4.translated;
-	document.getElementById('phrase5').innerHTML = json.document.phrase5.translated;
-	document.getElementById('phrase6').innerHTML = json.document.phrase6.translated;
-	document.getElementById('phrase7').innerHTML = json.document.phrase7.translated;
-	document.getElementById('phrase8').innerHTML = json.document.phrase8.translated;
-	document.getElementById('phrase9').innerHTML = json.document.phrase9.translated;
-	document.getElementById('phrase10').innerHTML = json.document.phrase10.translated;
-	document.getElementById('phrase11').innerHTML = json.document.phrase11.translated;
-	
-
-});
-  
-</script>
 
 
 
@@ -134,6 +107,45 @@ $('[data-role=page]').live('pageshow', function (event, ui) {
 });
 
 </script>
+
+<script>
+document.title = "zukat";
+console.log("God give me strength!!");
+</script>
+
+
+<script>
+$(document).ready(function() { 
+
+//$.getJSON("/home/spometun/Desktop/fp/src/html_app/pages/introduction.json", function(json) 
+$.getJSON("introduction.json", function(json) 
+{
+//    console.log(json); // this will show the info it in firebug console
+	console.log("God give me strength!");
+	//console.log(path.resolve('.'));
+	document.title = json.document.page_title.translated;
+	document.getElementById('page_headline').innerHTML = json.document.page_headline.translated;
+	document.getElementById('audio.text_intro').innerHTML = json.document.audio.text_intro_translated;
+
+	document.getElementById('phrase1').innerHTML = json.document.phrase1.translated;
+	document.getElementById('phrase2').innerHTML = json.document.phrase2.translated;
+	document.getElementById('phrase3').innerHTML = json.document.phrase3.translated;	
+	document.getElementById('phrase4').innerHTML = json.document.phrase4.translated;
+	document.getElementById('phrase5').innerHTML = json.document.phrase5.translated;
+	document.getElementById('phrase6').innerHTML = json.document.phrase6.translated;
+	document.getElementById('phrase7').innerHTML = json.document.phrase7.translated;
+	document.getElementById('phrase8').innerHTML = json.document.phrase8.translated;
+	document.getElementById('phrase9').innerHTML = json.document.phrase9.translated;
+	document.getElementById('phrase10').innerHTML = json.document.phrase10.translated;
+	document.getElementById('phrase11').innerHTML = json.document.phrase11.translated;
+
+});
+
+});
+  
+</script>
+
+
 
 </body>
 </html>
