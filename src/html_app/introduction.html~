@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+
+
+
+
+<html>
+
+
+
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title> Introduction2 </title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.1.0.min.css" />
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery.mobile-1.1.0.min.js"></script>
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon-precomposed.png" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+<body>
+
+
+<script>
+
+$.getJSON("introduction.json", function(json) 
+{
+//    console.log(json); // this will show the info it in firebug console
+	console.log(document.title);
+	document.title = json.document.page_title.translated;
+	document.getElementById('page_headline').innerHTML = json.document.page_headline.translated;
+	document.getElementById('audio.text_intro').innerHTML = json.document.audio.text_intro_translated;
+
+	document.getElementById('phrase1').innerHTML = json.document.phrase1.translated;
+	document.getElementById('phrase2').innerHTML = json.document.phrase2.translated;
+	document.getElementById('phrase3').innerHTML = json.document.phrase3.translated;	
+	document.getElementById('phrase4').innerHTML = json.document.phrase4.translated;
+	document.getElementById('phrase5').innerHTML = json.document.phrase5.translated;
+	document.getElementById('phrase6').innerHTML = json.document.phrase6.translated;
+	document.getElementById('phrase7').innerHTML = json.document.phrase7.translated;
+	document.getElementById('phrase8').innerHTML = json.document.phrase8.translated;
+	document.getElementById('phrase9').innerHTML = json.document.phrase9.translated;
+	document.getElementById('phrase10').innerHTML = json.document.phrase10.translated;
+	document.getElementById('phrase11').innerHTML = json.document.phrase11.translated;
+	
+
+});
+  
+</script>
+
+
+
+<div data-role="page" data-dom-cache="true" id="introduction" data-title="Introduction">
+	<div data-role="header" data-theme="b">
+		<h1> <span id = page_headline> Introduction </span> </h1>
+        <a href="./index.html" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
+	</div>
+	<div data-role="content" data-theme="d">
+
+		<div style="text-align:center;" class="usd21audiodownload" >
+		<span id = audio.text_intro> Download audio: &nbsp; </span>
+		<a href="http://www.usd21.org/m/lang/en/fp/audio/mp3/00-Introduction.mp3" rel="external">MP3</a> | 
+		<a href="http://www.usd21.org/m/lang/en/fp/audio/m4a/00-Introduction.m4a" rel="external">M4A</a> | 
+		<a href="http://www.usd21.org/m/lang/en/fp/audio/ogg/00-Introduction.ogg" rel="external">OGG</a>
+		</div>
+		<div class="usd21audio">
+		<audio controls="controls" id="audiointroduction">
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/m4a/00-Introduction.m4a" type="audio/aac" />
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/ogg/00-Introduction.ogg" type="audio/ogg" />
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/mp3/00-Introduction.mp3" type="audio/mpeg" />
+		</audio>
+
+		</div>
+
+
+
+	
+<blockquote>
+<span id = "phrase1">
+"For when by reason of the time you ought to be teachers, you... need to have someone teach you the rudiments of the first principles of the oracles of God... Therefore leaving the doctrine of the first principles of Christ, let us press on to perfection &mdash; not laying again a foundation... of faith toward God, of the teaching of baptisms, of laying on of hands, of resurrection of the dead and of eternal judgment. This will we do!" &mdash; 
+</span>
+<strong>
+<span id = "phrase2">Hebrews 5:12; 6:1-3</span>
+</span> 
+<span id = "phrase3">(WEV)</span>
+</blockquote>
+<span id = phrase4>   Originally, the First Principle Studies were written in 1980, while I served the Lord during the formative early days of the Boston Church of Christ. They were revised in 2003 and 2006 to meet the needs and to confront the challenges of the Portland International Church of Christ. In Los Angeles in 2009 and 2012, I made a few more modifications. As of today, these same First Principles Studies are being taught to all the new disciples of the </span> <a href="http://www.caicc.net/" rel="external">
+<span id = phrase5> City of Angels International Christian Church </span> </a> <span id = phrase6>. God has greatly blessed these lessons as they have been translated into over 20 languages around the world. May the Lord continue to "solidify, unify and multiply" sold-out disciples everywhere for the evangelization of all the nations in this generation! And to God be the glory! </span>
+	<br>
+    <br> <span id = phrase7> Kip McKean </span>
+	<br> <span id = phrase8> August 9, 2012 </span>
+	</div>
+	<div data-role="footer" data-theme="b">
+
+		<div class="fpPageFooter">
+
+		<a href="./index.html" data-role="button" data-icon="home" data-iconpos="left" data-direction="reverse"> <span id = phrase9> Home </span> </a> <a href="contactus.html" data-role="button"> <span id = phrase10> Contact Us </span> </a>
+
+		<div class='social'>
+		<a href='http://www.facebook.com/sharer.php?u=http://usd21.org/m/' class='social_icon facebook' rel="nofollow"></a>
+		<a href='https://twitter.com/share?url=http://usd21.org/m/' class='social_icon twitter' rel="nofollow"></a>
+		<a class='social_icon googleplus' href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://usd21.org/m/" rel="nofollow" ></a>
+		<div style='clear:both'></div>
+		</div>
+		
+        <div class="fpPageFooterImages">
+		<a href="http://www.usd21.org/" rel="external"><img src="images/usd21_2012_logo.png" width="215" height="52" border="0" alt="UpsideDown21"></a>
+		<br><img src="images/dm_2012_logo.png" width="215" height="26" border="0" alt="Discipleship Media">
+        </div>
+
+        <span id = phrase11> &copy; 2013 International Christian Churches (SoldOut Discipling Movement) </span>
+
+        </div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+
+$('[data-role=page]').live('pageshow', function (event, ui) {
+
+	// Turn off any embedded audio that might still be playing from the audio tag of another page
+	try {
+		var audioElement = document.getElementsByTagName('audio'); 
+		audioElement.pause();
+	} catch(err) {
+		
+	}
+
+});
+
+</script>
+
+</body>
+</html>

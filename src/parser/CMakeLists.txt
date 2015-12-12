@@ -24,6 +24,8 @@ HtmlSource.h
 SimpleLog.h
 )
 
+find_package(Boost REQUIRED COMPONENTS filesystem system)
+
 add_executable(fp_template ${src_files} ${hdr_files})
-target_link_libraries(fp_template -lhtmlcxx)
+target_link_libraries(fp_template ${Boost_LIBRARIES} -lhtmlcxx )
 
