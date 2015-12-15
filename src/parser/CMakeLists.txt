@@ -10,9 +10,12 @@ add_definitions(
 
 set(src_files
 main.cpp
+Types.cpp
 StringUtils.cpp
 XmlSink.cpp
-HtmlSource.cpp
+HtmlParser.cpp
+Json.cpp
+HtmlFP.cpp
 SimpleLog.cpp
 )
 
@@ -20,7 +23,9 @@ set(hdr_files
 Types.h
 StringUtils.h
 XmlSink.h
-HtmlSource.h
+HtmlParser.h
+Json.h
+HtmlFP.h
 SimpleLog.h
 )
 

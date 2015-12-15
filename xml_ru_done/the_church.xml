@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+  <translation>
+    <language_name_in_english>Russian</language_name_in_english>
+    <language_name_local>Русский</language_name_local>
+    <translator1_name>Yauheni Sobaleu</translator1_name>
+    <translator1_email>sblfff@gmail.com</translator1_email>
+    <translator1_date>2015-12-01</translator1_date>
+  </translation>
+  <page_title>
+    <english>The Church</english>
+    <translated>ЦЕРКОВЬ</translated>
+  </page_title>
+  <page_headline>
+    <english>The Church</english>
+    <translated>ЦЕРКОВЬ</translated>
+  </page_headline>
+  <audio>
+    <text_intro_english>Download audio:</text_intro_english>
+    <text_intro_translated>Загрузить аудио</text_intro_translated>
+    <text_mp3_english>MP3</text_mp3_english>
+    <text_mp3_translated>MP3</text_mp3_translated>
+    <link_mp3>lang/en/fp/audio/mp3/11-The_Church.mp3</link_mp3>
+    <text_m4a_english>M4A</text_m4a_english>
+    <text_m4a_translated>M4A</text_m4a_translated>
+    <link_m4a>lang/en/fp/audio/m4a/11-The_Church.m4a</link_m4a>
+    <text_ogg_english>OGG</text_ogg_english>
+    <text_ogg_translated>OGG</text_ogg_translated>
+    <link_ogg>lang/en/fp/audio/ogg/11-The_Church.ogg</link_ogg>
+  </audio>
+  <phrase1>
+    <english>Colossians 1:15-18</english>
+    <translated>Колоссянам 1:15-18</translated>
+    <link>???</link>
+  </phrase1>
+  <phrase2>
+    <english>The church is the body of Christ.  The body needs the head.  The church is essential to Christianity.</english>
+    <translated>Церковь – это тело Христа. Телу нужна голова. Церковь необходима в христианстве.</translated>
+  </phrase2>
+  <phrase3>
+    <english>HEAD</english>
+    <translated>ГОЛОВА</translated>
+  </phrase3>
+  <phrase4>
+    <english>CHRIST</english>
+    <translated>ИИСУС</translated>
+  </phrase4>
+  <phrase5>
+    <english>BODY</english>
+    <translated>ТЕЛО</translated>
+  </phrase5>
+  <phrase6>
+    <english>CHURCH</english>
+    <translated>ЦЕРКОВЬ</translated>
+  </phrase6>
+  <phrase7>
+    <english>Ephesians 2:19-21</english>
+    <translated>Ефесянам 2:19-21</translated>
+    <link>???</link>
+  </phrase7>
+  <phrase8>
+    <english>The church is the family of God.</english>
+    <translated>Церковь – это семья Бога.</translated>
+  </phrase8>
+  <phrase9>
+    <english>GOD</english>
+    <translated>БОГ</translated>
+  </phrase9>
+  <phrase10>
+    <english>(Father)</english>
+    <translated>(Отец)</translated>
+  </phrase10>
+  <phrase11>
+    <english>Christian</english>
+    <translated>Христианин</translated>
+  </phrase11>
+  <phrase12>
+    <english>(Son)</english>
+    <translated>(Сын)</translated>
+  </phrase12>
+  <phrase13>
+    <english>Brothers</english>
+    <translated>Братья</translated>
+  </phrase13>
+  <phrase14>
+    <english>Christian</english>
+    <translated>Христианин</translated>
+  </phrase14>
+  <phrase15>
+    <english>(Son)</english>
+    <translated>(Сын)</translated>
+  </phrase15>
+  <phrase16>
+    <english>1 Corinthians 12:12-13</english>
+    <translated>1 Коринфянам 12:12-13</translated>
+    <link>???</link>
+  </phrase16>
+  <phrase17>
+    <english>teaches that we are baptized into the body of Christ, the church.</english>
+    <translated>учит, что мы крестимся в тело Христа, в Церковь.</translated>
+  </phrase17>
+  <phrase18>
+    <english>Romans 6:3-4</english>
+    <translated>Римлянам 6:3-4</translated>
+    <link>???</link>
+  </phrase18>
+  <phrase19>
+    <english>teaches that we are also baptized into Christ.  Baptism is when we become Christian, a son of God, and at that same point we become members of the church, the family of God.</english>
+    <translated>учит, что мы крестимся во Христа. Крещение – момент, когда человек становится христианином, ребенком Бога, и одновременно – членом Церкви, семьи Бога.</translated>
+  </phrase19>
+  <phrase20>
+    <english>Ephesians 2:20</english>
+    <translated>Ефесянам 2:20</translated>
+    <link>???</link>
+  </phrase20>
+  <phrase21>
+    <english>Cornerstone:  Christ</english>
+    <translated>Краеугольный камень: Христос.</translated>
+  </phrase21>
+  <phrase22>
+    <english>Foundation:  Apostles and Prophets</english>
+    <translated>Основание: апостолы и пророки.</translated>
+  </phrase22>
+  <phrase23>
+    <english>Apostles = New Testament Bible</english>
+    <translated>Апостолы – Новый Завет.</translated>
+  </phrase23>
+  <phrase24>
+    <english>Prophets = Old Testament</english>
+    <translated>Пророки – Ветхий Завет.</translated>
+  </phrase24>
+  <phrase25>
+    <english>The church is based on the Word of God only.</english>
+    <translated>Церковь основывается только на Слове Бога.</translated>
+  </phrase25>
+  <phrase26>
+    <english>Have you ever wondered why there are so many denominations — divisions?</english>
+    <translated>Интересовался ли ты когда-либо, почему так много деноминаций, разделений?</translated>
+  </phrase26>
+  <phrase27>
+    <english>(450 or more exist in the U.S. alone.)</english>
+    <translated>(450 или даже больше существует только в США.)</translated>
+  </phrase27>
+  <phrase28>
+    <english>The Bible teaches that there is one church.</english>
+    <translated>Библия учит, что Церковь одна.</translated>
+  </phrase28>
+  <phrase29>
+    <english>Ephesians 4:4-6</english>
+    <translated>Ефесянам 4:4-6</translated>
+    <link>???</link>
+  </phrase29>
+  <phrase30>
+    <english>— one body</english>
+    <translated> – одно тело.</translated>
+  </phrase30>
+  <phrase31>
+    <english>Romans 12:4-5</english>
+    <translated>Римлянам 12:4-5</translated>
+    <link>???</link>
+  </phrase31>
+  <phrase32>
+    <english>— one body</english>
+    <translated>– одно тело.</translated>
+  </phrase32>
+  <phrase33>
+    <english>1 Corinthians 12:12-13</english>
+    <translated>1-е Коринфянам 12:12-13</translated>
+    <link>???</link>
+  </phrase33>
+  <phrase34>
+    <english>— one body</english>
+    <translated> – одно тело.</translated>
+  </phrase34>
+  <phrase35>
+    <english>Divisions in Christendom are either of Satan or of God.</english>
+    <translated>Разделения в христианстве могут быть либо от Бога, либо от сатаны.</translated>
+  </phrase35>
+  <phrase36>
+    <english>1 Corinthians 1:10-13</english>
+    <translated>1-е Коринфянам 1:10-13</translated>
+    <link>???</link>
+  </phrase36>
+  <phrase37>
+    <english>:  Division is sin, when following personalities and in time their writings (traditions of men that contradict the Word — false doctrines).</english>
+    <translated>Разделения – это грех, если мы следуем за личностями, а со временем – за их произведениями (человеческие традиции, которые противоречат Слову – это лжедоктрины, см.</translated>
+  </phrase37>
+  <phrase38>
+    <english>Matthew 15:6-9</english>
+    <translated>Матфея 15:6-9</translated>
+    <link>???</link>
+  </phrase38>
+  <phrase39>
+    <english>Luke 12:51-53</english>
+    <translated>Луки 12:51-53</translated>
+    <link>???</link>
+  </phrase39>
+  <phrase40>
+    <english>;</english>
+    <translated>;</translated>
+  </phrase40>
+  <phrase41>
+    <english>John 10:19-21</english>
+    <translated>Иоанна 10:19-21</translated>
+    <link>???</link>
+  </phrase41>
+  <phrase42>
+    <english>:  Division will occur and is righteous, when an individual, church or movement aligns themselves with the Word of God.  The Jews considered themselves "God's people," yet Jesus' words (the truth) divided them into two groups — those who opposed Him and those who obeyed Him.</english>
+    <translated>Могут происходить и праведные разделения, когда человек, церковь или движение равняется на Слово Бога. Иудеи считали себя «народом Бога», однако слова Иисуса (истина) разделили их на две группы: тех, кто противостоял Ему, и тех, кто подчинился Ему.</translated>
+  </phrase42>
+  <phrase43>
+    <english>The following are the major historical divisions in Christendom — some were formed by a noble stand for the truth (though not a complete return), while others were departures from the truth.</english>
+    <translated>Ниже приведены основные исторические разделения в христианстве – некоторые появились в результате благородной борьбы за истину (пусть даже неполную), а другие наоборот были отхождением от истины.</translated>
+  </phrase43>
+  <phrase44>
+    <english>Through the centuries the church was corrupted by traditions of men — false doctrines, such as: infant baptism, original sin, perpetual virginity of Mary, priests as clergy, papal infallibility, etc… This becomes the</english>
+    <translated>На протяжении столетий церковь разлагали человеческие традиции – такие лжедоктрины, как крещение младенцев, первородный грех, вечная девственность Марии, особый сан духовенства, непогрешимость папы и т. д. Так появилась</translated>
+  </phrase44>
+  <phrase45>
+    <english>Catholic Church</english>
+    <translated>Католическая Церковь.</translated>
+  </phrase45>
+  <phrase46>
+    <english>. In 364 AD the Roman Empire is split into two parts. This division leads to a split in Christianity — the eastern portion becomes the</english>
+    <translated>В 364 г. н. э. Римская Империя распалась на две части. Это привело к расколу в христианстве – восточная часть стала</translated>
+  </phrase46>
+  <phrase47>
+    <english>Eastern Orthodox Church</english>
+    <translated>Восточной Православной Церковью</translated>
+  </phrase47>
+  <phrase48>
+    <english>and the western part becomes the</english>
+    <translated>, а западная – </translated>
+  </phrase48>
+  <phrase49>
+    <english>Roman Catholic Church</english>
+    <translated>Римской Католической Церковью</translated>
+  </phrase49>
+  <phrase50>
+    <english>. Practices diverge, for example — Orthodox has married priests, Roman Catholic priests are celibate. The "Great Schism" occurs in 1054 AD, as the leaders of "each church" excommunicate each other.</english>
+    <translated>. Они расходятся в некоторых аспектах: например, в православии священники должны быть женатыми, а в католицизме дают обет безбрачия. «Великий раскол» произошел в 1054 г. н. э., когда лидеры каждой церкви взаимно предали друг друга анафеме.</translated>
+  </phrase50>
+  <phrase51>
+    <english>1500's Reformation Movement</english>
+    <translated>Движение Реформации 1500-х</translated>
+  </phrase51>
+  <phrase52>
+    <english>— Martin Luther (Lutheran Church) He takes a stand against the Roman Catholic Church on these convictions: Bible authority over church authority, salvation by faith not works, and the priesthood of all believers, yet still baptizes infants. Other noted reformers were John Calvin (Presbyterian Church), Ulrich Zwingli and Conrad Grebel (Anabaptists). Anabaptists were heavily persecuted by Catholics and some reformers, because of their stand for adult baptism. Henry VIII (Anglican Church / Church of England) He breaks from the Catholic Church over his right to divorce his wife. He appoints himself head of the church. Later in the United States, the Anglican Church becomes the Episcopalian Church, since members will not follow the king of England.</english>
+    <translated>– Мартин Лютер (Лютеранская Церковь). Он выступил против Римской Католической Церкви с такими убеждениями: авторитет Библии больше, чем авторитет церкви; спасение через веру, а не по делам; священство всех верующих. Однако он продолжал признавать крещение младенцев. Другими известными реформистами были Джон Кальвин (Пресвитерианская Церковь), Ульрих Цвингли и Конрад Гребель (анабаптисты). Анабаптистов жестоко преследовали как католики, так и некоторые реформисты из-за того, что они отстаивали идею крещения взрослых. Генрих VIII (Англиканская Церковь / Церковь Англии) отделился от Католической Церкви из-за того, что папа не давал ему право развестись с женой. Он сам себя назначил главой церкви. Позже в США Англиканская Церковь стала называться Епископальной Церковью, поскольку ее члены не хотели следовать за королем Англии.</translated>
+  </phrase52>
+  <phrase53>
+    <english>1700's Great Awakening Movement</english>
+    <translated>«Великое пробуждение» 1700-х</translated>
+  </phrase53>
+  <phrase54>
+    <english>— John and Charles Wesley (Methodist Church). Followers divide from Church of England over: personal transforming decision for Christ not state religion, high accountability of members, and preaching to the "unchurched;" also practiced infant baptism.</english>
+    <translated>– Джон и Чарльз Уэсли (Методистская церковь). Последователи этих проповедников отделились от Англиканской Церкви с такими убеждениями: личное решение следовать за Христом вместо государственной религии, высокая подотчетность членов и проповедь тем, кто не принадлежит к церкви. Они тоже практиковали крещение младенцев.</translated>
+  </phrase54>
+  <phrase55>
+    <english>1800's Restoration Movement</english>
+    <translated>Движение Восстановления 1800-х</translated>
+  </phrase55>
+  <phrase56>
+    <english>— Alexander Campbell and Barton Stone (Mainline Church of Christ and Conservative Christian Church) Take a stand against both Catholic and Protestant doctrines of salvation. They preach to be saved one must have personal faith in Christ, repentance and baptism (immersion) for the forgiveness of sin to receive the Holy Spirit. In reaction to Catholicism, their congregations are autonomous — self-governing. (1906 is the formal split between Mainline Church of Christ, which is non-instrumental, and the Conservative Christian Church, which is instrumental.) Joseph Smith (Mormon Church) divides from Restoration Movement in 1830 over "new revelation" — the Book of Mormon.</english>
+    <translated>– Александр Кэмпбелл и Бартон Стоун (Традиционная Церковь Христа и Консервативная Христианская Церковь). Они отстаивали доктрину спасения, отличную как от католической, так и от протестантской, а именно, что для спасения необходимо иметь личную веру в Христа, покаяться и креститься (погрузиться) для прощения грехов и получения Святого Духа. В противовес католицизму, их общины автономны и самоуправляемы. (В 1906 произошел формальный раскол между Традиционной Церковью Христа, которая практикует лишь вокальное пение на собраниях, и Консервативной Христианской Церковью, где используются музыкальные инструменты). Джозеф Смит (мормоны) отделился от Движения Восстановления в 1830, якобы получив «новое откровение» – Книгу Мормона.</translated>
+  </phrase56>
+  <phrase57>
+    <english>1967 Crossroads Movement</english>
+    <translated>1967 – Движение Кроссроудз</translated>
+  </phrase57>
+  <phrase58>
+    <english>(Total Commitment Movement) — Controversial, though never departing from the Mainline Church of Christ, the Crossroads Church near the University of Florida pioneers evangelizing the secular campuses of United States, "counting the cost" with each person that desires to be baptized, and the shepherding of new converts.</english>
+    <translated> («Движение полной преданности»). Оно вызывало вокруг себя споры, но никогда не отходило от Традиционной Церкви Христа. Церковь Кроссроудз возле Университета Флориды первой начала обращать мирские вузы Соединенных Штатов, «подсчитывая стоимость» с каждым желающим креститься и наставляя новообращенных.</translated>
+  </phrase58>
+  <phrase59>
+    <english>1979 Boston Movement</english>
+    <translated>1979 – Бостонское движение</translated>
+  </phrase59>
+  <phrase60>
+    <english>(International Church of Christ) — Kip McKean — Baptized at the University of Florida in 1972, divides from Mainline Churches of Christ and Crossroads Movement over: Bible Church not just New Testament Church, only disciples are true Christians, each and every member of church must be a disciple, each member should be in discipling relationships, vision to evangelize the nations in a generation, the planting of new churches to achieve this vision, central leadership not autonomous congregations, and the role of women. In 2002, the International Churches of Christ return to a more Mainline Church of Christ theology — each congregation becomes autonomous (self-governing), calling a central leadership and the vision to evangelize the nations in a generation "unbiblical." Around the world, thousands fall away.</english>
+    <translated> (Международные Церкви Христа). Его начал Кип Маккин, крестившийся в Университете Флориды в 1972 году. Движение отделилось от ТЦХ и Кроссроудз, считая, что: церковь должна быть церковью всей Библии, а не только Нового Завета; только ученики являются истинными христианами; каждый член церкви должен быть учеником; каждый член церкви должен быть наставляемым; церковь должна иметь виденье обратить мир в одном поколении и основывать новые церкви для достижения этой цели; общины должны быть не автономными, а иметь центральное лидерство; отличался также взгляд на роль женщин. В 2002 г. Международные Церкви Христа во многом вернулись к теологии ТЦХ: каждая община стала автономной, а центральное лидерство и обращение мира в одном поколении стали называть «небиблейскими» идеями. Тысячи учеников по всему мира отпали.</translated>
+  </phrase60>
+  <phrase61>
+    <english>2006 SoldOut Movement</english>
+    <translated>2006 – «Движение полностью преданных учеников»</translated>
+  </phrase61>
+  <phrase62>
+    <english>(Portland Movement / International Christian Church): Begins in Portland, Oregon as a revival movement within the International Churches of Christ. The International Church of Christ separates from the SoldOut Movement, because of the new movement's stand on these convictions: Bible Church not just New Testament Church, only disciples are true Christians, each and every member of church must be a disciple, each member should be in discipling relationships, vision to evangelize the nations in a generation, the planting of new churches to achieve this vision, central leadership not autonomous congregations, and the role of women.</english>
+    <translated>(Портлендское движение / Международные Христианские Церкви). Началось в Портленде (Орегон) как движение духовного возрождения внутри Международных Церквей Христа. МЦХ отделили от себя «Движение полностью преданных учеников» из-за того, что последние настаивали на прежних убеждениях: церковь должна быть церковью всей Библии, а не только Нового Завета; только ученики являются истинными христианами; каждый член церкви должен быть учеником; каждый член церкви должен быть наставляемым; церковь должна иметь виденье обратить мир в одном поколении и основывать новые церкви для достижения этой цели; общины должны быть не автономными, а иметь центральное лидерство; женщины наставляют женщин.</translated>
+  </phrase62>
+  <phrase63>
+    <english>What is the "one church?"</english>
+    <translated>Что же тогда значит «одна церковь»?</translated>
+  </phrase63>
+  <phrase64>
+    <english>Acts 11:25-26</english>
+    <translated>Деяния 11:25-26</translated>
+    <link>???</link>
+  </phrase64>
+  <phrase65>
+    <english>:  Church = Disciples = Christians.</english>
+    <translated>Церковь = Ученики = Христиане.</translated>
+  </phrase65>
+  <phrase66>
+    <english>When God looks down from heaven, He sees one church — all the baptized disciples around the world, who are "sold-out" in obeying his Word.  This is called the "church universal" — the one true church (</english>
+    <translated>Когда Бог смотрит с Небес, Он видит одну церковь – всех крещеных учеников по всему миру, которые «полностью преданы» Его слову. Это называется «вселенская церковь» – единственная истинная церковь (</translated>
+  </phrase66>
+  <phrase67>
+    <english>Ephesians 4:4-6</english>
+    <translated>Ефесянам 4:4-6</translated>
+    <link>???</link>
+  </phrase67>
+  <phrase68>
+    <english>).</english>
+    <translated>).</translated>
+  </phrase68>
+  <phrase69>
+    <english>A local congregation is called the "visible church."  In the first century, all the "visible churches" made up the "church universal."  However, since so many "visible churches" have departed from true doctrine and because all sold-out baptized disciples are not in one fellowship, we should strive to be a member of a local congregation.</english>
+    <translated>Местные общины называются «видимая церковь». В первом столетии все «видимые церкви» и составляли «вселенскую церковь». Однако из-за того, что так многие «видимые церкви» отошли от истинного учения и потому, что все полностью преданные ученики не принадлежат к одному «братству» церквей, нам нужно стремиться быть в местной общине преданных учеников.</translated>
+  </phrase69>
+  <phrase70>
+    <english>The Greek word for church is "ekklesia" which means "assembly" or "called out" ("Ek" meaning "out" and "kaleo" meaning "to call").  To be a disciple is to be "called out" from the world.  Therefore, the church in the Bible was the "assembly" of the "called out."</english>
+    <translated>Греческое слово «церковь» – «экклесиа» – означает «собрание» или «призванные» («эк» – из, «калео» – призывать). Быть учеником значить быть «призванным» из мира. Поэтому церковь Библии была «собранием призванных». </translated>
+  </phrase70>
+  <phrase71>
+    <english>There are several names in the Bible for God's Church: Disciples, Christians, Church of God, Church of Christ, The Way, Church of the Firstborn, Saints, etc...  Since we are free to choose any name for our fellowship, since our fellowship goes around the world, and because our churches are composed of only sold-out disciples, we call ourselves the "International Christian Church."</english>
+    <translated>В Библии есть несколько названий Церкви Бога: ученики, христиане, Церковь Бога, Церковь Христа, Путь, святые и т. д. Поскольку мы свободны выбирать любое имя для нашего братства и поскольку оно распространяется по всему миру и состоит из церквей, к которым принадлежат только полностью преданные ученики, мы называем себя «Международные Христианские Церкви».</translated>
+  </phrase71>
+  <phrase72>
+    <english>What distinguishes the International Christian Churches? (What separates or "divides" us from mainstream Christendom?)</english>
+    <translated>Что отличает Международные Христианские Церкви? (Что «отделяет» нас от общепринятого христианства?)</translated>
+  </phrase72>
+  <phrase73>
+    <english>We believe God physically resurrected Jesus from the dead.</english>
+    <translated>Мы верим, что Бог физически воскресил Иисуса из мертвых.</translated>
+  </phrase73>
+  <phrase74>
+    <english>We believe the Bible is inspired by God and is our sole authority.</english>
+    <translated>Мы верим, что Библия вдохновлена Богом, и это единственный источник власти для нас.</translated>
+  </phrase74>
+  <phrase75>
+    <english>Therefore, since we have not departed (divided) from the truth, we consider ourselves non-denominational.</english>
+    <translated>И, поскольку мы не отошли от истины, мы считаем себя неденоминационной церковью. </translated>
+  </phrase75>
+  <phrase76>
+    <english>We are a Bible Church, not simply a New Testament Church.</english>
+    <translated>Мы – церковь Библии, а не только Нового Завета:</translated>
+  </phrase76>
+  <phrase77>
+    <english>2 Timothy 3:14-17</english>
+    <translated>2 Тимофею 3:14-17</translated>
+    <link>???</link>
+  </phrase77>
+  <phrase78>
+    <english>.</english>
+    <translated>.</translated>
+  </phrase78>
+  <phrase79>
+    <english>The context of the word "Scripture" is referring to the Old Testament.  We believe the Old Testament applies to our lives — as much as the New Testament — except for the Mosaic Law and any teaching in the New Testament that supercedes the Old Testament (Example: grounds for divorce).</english>
+    <translated>По контексту, слово «писание» относится к Ветхому Завету. Мы верим, что Ветхий Завет должен применяться в нашей жизни, как и Новый, за исключением Закона Моисея и всех тех учений, которые отменены Новым Заветом (например, основания для развода).</translated>
+  </phrase79>
+  <phrase80>
+    <english>We believe — as in the book of Acts — the visible church should be composed of only sold-out baptized disciples.</english>
+    <translated>Мы верим, что видимая церковь (как это описано в Книге Деяний) должна состоять только из полностью преданных крещеных учеников.</translated>
+  </phrase80>
+  <phrase81>
+    <english>"Be silent where the Bible speaks, and speak where the Bible is silent."</english>
+    <translated>Наш девиз – «молчать, когда Библия говорит, и говорить, когда Библия молчит».</translated>
+  </phrase81>
+  <phrase82>
+    <english>In applying Scriptural principles to build the visible church, we believe we must obey God's Word, but where the Bible does not prohibit a practice or name, we are free to use our God-given creativity.</english>
+    <translated>В том, что касается применения библейских принципов для построения видимой церкви, мы верим, что должны подчиняться Библии, но там, где Библия не запрещает какую-либо практику или название, мы свободны использовать данные Богом творческие способности (</translated>
+  </phrase82>
+  <phrase83>
+    <english>Genesis 2:19</english>
+    <translated>Бытие 2:19</translated>
+    <link>???</link>
+  </phrase83>
+  <phrase84>
+    <english>(Examples: The principles for "Bible Talks," "Lead Evangelist," "Discipleship Partners" and "Regions" are in the Scriptures, though these terms are not.  However, nowhere are they prohibited.  Also instrumental music and paid Women's Ministry Leaders are not prohibited in the Scriptures.)</english>
+    <translated>Например, такие понятия, как «беседы о Библии», «ведущий евангелист», «ученическо-наставнические пары» и «регионы», взяты из Писания, хотя там нет таких терминов. Тем не менее, их использование и не запрещено. Также Библия не запрещает инструментальную музыку и оплату труда работающих на церковь женщин.</translated>
+  </phrase84>
+  <phrase85>
+    <english>We believe in a Central Leadership.</english>
+    <translated>Мы верим в необходимость центрального лидерства.</translated>
+  </phrase85>
+  <phrase86>
+    <english>Throughout God's Word, when His people were unified, there was a strong central leadership and godly central leader.  (Examples:  Moses, Joshua, David and of course Jesus and the Apostles.)</english>
+    <translated>Во всем Слове Бога, когда Его народ был единым, у него было сильное центральное лидерство и благочестивый лидер (например: Моисей, Иисус Навин, Давид и, конечно же, Иисус и Его апостолы). Из </translated>
+  </phrase86>
+  <phrase87>
+    <english>1 Corinthians 4:15-17</english>
+    <translated>1 Коринфянам 4:15-17</translated>
+    <link>???</link>
+  </phrase87>
+  <phrase88>
+    <english>and</english>
+    <translated>и</translated>
+  </phrase88>
+  <phrase89>
+    <english>Titus 1:5</english>
+    <translated>Титу 1:5</translated>
+    <link>???</link>
+  </phrase89>
+  <phrase90>
+    <english>teaches that local congregations had an overseeing evangelist, who unified the disciples "everywhere in every church." In the first century, congregations were a collective movement — not autonomous, not self-governing.)</english>
+    <translated>можно сделать вывод, что в местных общинах были ведущие евангелисты, которые объединяли учеников «везде во всякой церкви». В первом веке общины были всеобщим движением, а не автономными, самоуправляемыми группами.</translated>
+  </phrase90>
+  <phrase91>
+    <english>Matthew 28:19-20</english>
+    <translated>Матфея 28:19-20</translated>
+    <link>???</link>
+  </phrase91>
+  <phrase92>
+    <english>: Our vision — the evangelization of all nations in this generation —</english>
+    <translated>Наше виденье – обращение всех народов в этом поколении – </translated>
+  </phrase92>
+  <phrase93>
+    <english>will be accomplished through every disciple making disciples and every disciple having discipling relationships.</english>
+    <translated>осуществится, если каждый ученик будет делать учеников, и каждый ученик будет иметь ученическо-наставнические отношения.</translated>
+  </phrase93>
+  <phrase94>
+    <english>1 Corinthians 12:14-27</english>
+    <translated>1-е Коринфянам 12:14-27</translated>
+    <link>???</link>
+  </phrase94>
+  <phrase95>
+    <english>We need the body.  The body needs us (</english>
+    <translated>Мы нуждаемся в теле. Тело нуждается в нас. (</translated>
+  </phrase95>
+  <phrase96>
+    <english>v. 21</english>
+    <translated>ст. 21</translated>
+    <link>???</link>
+  </phrase96>
+  <phrase97>
+    <english>).</english>
+    <translated>).</translated>
+  </phrase97>
+  <phrase98>
+    <english>Be involved on a relationship level in the church (</english>
+    <translated>Необходимо быть вовлеченным в церковь на уровне отношений (</translated>
+  </phrase98>
+  <phrase99>
+    <english>v. 26</english>
+    <translated>ст. 26</translated>
+    <link>???</link>
+  </phrase99>
+  <phrase100>
+    <english>).</english>
+    <translated>).</translated>
+  </phrase100>
+  <phrase101>
+    <english>Hebrews 10:23-25</english>
+    <translated>Евреям 10:23-25</translated>
+    <link>???</link>
+  </phrase101>
+  <phrase102>
+    <english>Do not miss church.</english>
+    <translated>Не пропускай собраний церкви.</translated>
+  </phrase102>
+  <phrase103>
+    <english>The fellowship helps us to be unswerving in our commitment (</english>
+    <translated>Общение помогает нам быть непоколебимыми в нашей преданности (</translated>
+  </phrase103>
+  <phrase104>
+    <english>v. 23</english>
+    <translated>ст. 23</translated>
+    <link>???</link>
+  </phrase104>
+  <phrase105>
+    <english>).</english>
+    <translated>).</translated>
+  </phrase105>
+  <phrase106>
+    <english>Another purpose of fellowship is to encourage each other so we will remain faithful (</english>
+    <translated>Еще одна цель совместных встреч – поддерживать друг друга, чтобы мы оставались верными (</translated>
+  </phrase106>
+  <phrase107>
+    <english>v. 24</english>
+    <translated>ст. 24</translated>
+    <link>???</link>
+  </phrase107>
+  <phrase108>
+    <english>).</english>
+    <translated>).</translated>
+  </phrase108>
+  <phrase109>
+    <english>Must come to all meetings of the body:  Sunday and Midweek Services, Bible Talks, special devotionals, Jubilees, retreats, etc...  Begin to rearrange schedule to come to all the meetings of the body.</english>
+    <translated>Необходимо приходить на все встречи тела: службы в воскресенье и среди недели, беседы о Библии, особые семейные времена, конференции и т. д. Начни перестраивать свой график таким образом, чтобы попадать на все собрания.</translated>
+  </phrase109>
+  <phrase110>
+    <english>Contribution</english>
+    <translated>Сбор</translated>
+  </phrase110>
+  <phrase111>
+    <english>Malachi 3:6-12</english>
+    <translated>Малахия 3:6-12</translated>
+    <link>???</link>
+  </phrase111>
+  <phrase112>
+    <english>:  Do not rob God in your tithes and offerings.  Tithing is the guideline of our sacrifice on Sundays to meet the ministry needs.  Benevolent offerings are given at Midweek Services.</english>
+    <translated>Не обкрадывай Бога «десятиною и приношениями». Десятину мы жертвуем по воскресеньям для нужд церкви. Добровольные «приношения» даются на службе среди недели.</translated>
+  </phrase112>
+  <phrase113>
+    <english>2 Corinthians 9:6-8</english>
+    <translated>2 Коринфянам 9:6-8</translated>
+    <link>???</link>
+  </phrase113>
+  <phrase114>
+    <english>:  Giving should be from a "cheerful" heart — not under compulsion.</english>
+    <translated>Давай «по расположению сердца, а не с огорчением и не с принуждением».</translated>
+  </phrase114>
+  <phrase115>
+    <english>God blesses you when you sacrifice.</english>
+    <translated>Бог благословляет нас, когда мы жертвуем.</translated>
+  </phrase115>
+  <phrase116>
+    <english>Home</english>
+    <translated>К содержанию</translated>
+    <link>???</link>
+  </phrase116>
+  <phrase117>
+    <english>Contact Us</english>
+    <translated>Свяжитесь с нами</translated>
+    <link>???</link>
+  </phrase117>
+  <phrase118>
+    <english>© 2013 International Christian Churches (SoldOut Discipling Movement)</english>
+    <translated>© 2015 Международные Христианские Церкви (Движение полностью преданных учеников)</translated>
+  </phrase118>
+</document>

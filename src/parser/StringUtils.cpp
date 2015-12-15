@@ -26,7 +26,9 @@ string loadFromFile(const string& fileName)
 
 bool isDummy(const string& s)
 {
-    auto pos = s.find_first_not_of("| \n\r\t");
+    string tmp = s;
+    purify(tmp);
+    auto pos = tmp.find_first_not_of("| \n\r\t");
     return pos == string::npos;
 }
 

@@ -69,16 +69,16 @@ void XmlSink::writeSectionEnd()
 void XmlSink::writePhrase(const Node& phrase, int number)
 {
 //    cout<<endl<<phrase.text;
-    char sectionName[100];
-    sprintf(sectionName, "phrase%d", number);
-    writeSectionBegin(sectionName);
-    writeField("english", phrase.text);
-    writeField("translated", translate(phrase.text));
-    if(phrase.isLink)
-    {
-        writeField("link", translate(phrase.linkText));
-    }
-    writeSectionEnd();
+//    char sectionName[100];
+//    sprintf(sectionName, "phrase%d", number);
+//    writeSectionBegin(sectionName);
+//    writeField("english", phrase.text);
+//    writeField("translated", translate(phrase.text));
+//    if(phrase.isLink)
+//    {
+//        writeField("link", translate(phrase.linkText));
+//    }
+//    writeSectionEnd();
 }
 
 
