@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 3.4.2, 2015-12-15T09:14:38. -->
+<!-- Written by QtCreator 3.4.2, 2015-12-16T22:14:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -157,7 +157,7 @@
      <value type="int">14</value>
     </valuelist>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguation.Title">fp_template</value>
-    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments">/home/spometun/Desktop/fp/html/contactus.html</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments">/home/spometun/Desktop/fp/work/test/introduction.html</value>
     <value type="bool" key="CMakeProjectManager.CMakeRunConfiguration.UseTerminal">false</value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory"></value>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>

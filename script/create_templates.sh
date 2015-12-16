@@ -1,6 +1,6 @@
 #!/bin/bash
-for i in $( ls $1/*.html ); do
+rm -rf ../html
+cp -r ../html_orig ../html
+for i in $( ls ../html/*.html ); do
    ../build/fp_template $i
-   cmp $i $i"C"
 done
-#./fp_template ../work/xml/baptismholyspirit.html

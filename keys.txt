@@ -1,0 +1,21 @@
+Здравствуйте, Сергей!
+
+ Высылаю Вам доступы к сайту для совместной работы:
+
+ 
+ 
+Information for managing the actual website (WordPress, Adding New Web Deacons, Changing Layout)
+http://moscowicc.org/wp-admin
+Username: moscowwebdeacon
+Password: W3bD3@c0n!
+ 
+Information for logging into the Hosting Account (Statistics, Creating Moscow Email Accounts and FTP Upload Accounts)
+You can login to our billing system at http://gbclient.hostgator.com/login, using the email address we sent this email to, and the password Ou7u9MSrRe55
+   Shared Plan:        Hatchling
+   Your Control Panel: https://gator4015.hostgator.com:2083
+   Username:           moscow
+   Domain:             moscowicc.org
+   Password:           uzl1HdszMn4*
+   1st Nameserver:     ns8029.hostgator.com
+   2nd Nameserver:     ns8030.hostgator.com
+   Server IP:          192.185.4.26

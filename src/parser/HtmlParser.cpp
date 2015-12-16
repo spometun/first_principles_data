@@ -88,8 +88,13 @@ bool HtmlParser::getNextTextOrFail(std::string& text)
 
 bool HtmlParser::getNextOrFail(Node& node)
 {
+    string tag;
     for(; _cur != _dom.end(); ++_cur)
     {
+        if(_cur->isTag())
+        {
+            tag = _cur->tagName();
+        }
         if(_cur->isTag() && _cur->tagName() == "a")
         {
             node.isLink = true;
@@ -101,6 +106,7 @@ bool HtmlParser::getNextOrFail(Node& node)
             ASSERT(_cur != _dom.end(), "Parsing internal error: couldn't get link text (unexpected end of file?)");
             node.text = &const_cast<string&>(_cur->text());
             _cur++;
+            node.tag = tag;
             return true;
         }
         if(! _cur->isTag() && ! _cur->isComment())
@@ -115,6 +121,7 @@ bool HtmlParser::getNextOrFail(Node& node)
             node.text = &const_cast<string&>(_cur->text());
             node.linkText = "";
             ++_cur;
+            node.tag = tag;
             return true;
         }
     }

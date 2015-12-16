@@ -62,7 +62,7 @@ $(document).ready(function() {
 $.getJSON("lang/ru/text/%s", function(json)
 {
     console.log("God give me strength!");
-    document.title = json.lesson_title_translated;
+    document.title = json.lesson_headline_translated;
     document.getElementById('lesson_headline').innerHTML = json.lesson_headline_translated;
     for(i = 1; i <= %d; i++)
     {
@@ -122,7 +122,7 @@ void convertXmlToJson(const string& xmlFileName)
 
 int main(int argc, const char* argv[])
 {
-    cout << "Glory to God!" << endl;
+    cout << "Glory to God!";
     //cout<< "This is the First Principles Translation Template creator" << endl;
     if(argc != 2)
     {
@@ -141,34 +141,37 @@ int main(int argc, const char* argv[])
     dstJsonFileName.replace(srcFileName.size() - 5, srcFileName.size(), ".json");
     string dstHtmlFileName = srcFileName;
     dstHtmlFileName.replace(srcFileName.size() - 5, srcFileName.size(), "_lang.html");
+    cout<<" "<<dstHtmlFileName<<": "<<flush;
 
     html = make_shared<HtmlParser>(srcFileName);
     HtmlFP fpSource(html);
     Node node;
     pt::ptree tree;
     putHeader(tree);
-    bool first = true;
     while(fpSource.getNextOrFail(node))
     {
         //cout<<endl<<node.id <<": "<<*node.text;
         string text = *node.text;
         purify(text);
         tree.put(node.id + "_english", text);
+        //LOG("text = %s len = %zu", node.text->c_str(), strlen(node.text->c_str()));
         tree.put(node.id + "_translated" , translate(text));
-        if(! first)
-        {
-            addHtmlId(node.text, node.id);
-        }
-        first = false;
+        addHtmlId(node.text, node.id);
        // if(node.isLink) cout<<endl<<"link: "<<node.linkText;
     }
 //    fflush(stdout);
     pt::write_json(dstJsonFileName, tree);
 
-    ASSERT(html->getNextOrFail(node), "Couldn't find java script cluase near the end");
-    addJavaScriptCode(node.text, dstJsonFileName, fpSource.getPhrasesAmount());
+    bool ok = html->getNextOrFail(node);
+    if(ok)
+    {
+        addJavaScriptCode(node.text, dstJsonFileName, fpSource.getPhrasesAmount());
+    }else
+    {
+        LOGW("Couldn't find java script cluase near the end - do not embedd javascript code");
+    }
     html->write(dstHtmlFileName);
-    cout<<endl<<dstHtmlFileName<<": "<<fpSource.getPhrasesAmount()<<" phrases written";
+    cout<<fpSource.getPhrasesAmount()<<" phrases written"<<endl;
 
     return 0;
 }

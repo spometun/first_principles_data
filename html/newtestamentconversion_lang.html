@@ -143,10 +143,10 @@ $('[data-role=page]').live('pageshow', function (event, ui) {
 
 
 $(document).ready(function() {
-$.getJSON("lang/ru/text/html/newtestamentconversion.json", function(json)
+$.getJSON("lang/ru/text/../html/newtestamentconversion.json", function(json)
 {
     console.log("God give me strength!");
-    document.title = json.lesson_title_translated;
+    document.title = json.lesson_headline_translated;
     document.getElementById('lesson_headline').innerHTML = json.lesson_headline_translated;
     for(i = 1; i <= 85; i++)
     {

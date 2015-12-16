@@ -9,6 +9,7 @@ struct Node
     bool isLink;
     std::string linkText;
     std::string id;
+    std::string tag;
 };
 
 class Source
