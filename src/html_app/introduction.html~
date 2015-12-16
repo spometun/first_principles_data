@@ -30,7 +30,7 @@
 		<a href="http://www.usd21.org/m/lang/en/fp/audio/ogg/00-Introduction.ogg" rel="external">OGG</a>
 		</div>
 		<audio controls="controls" id="audiointroduction">
-			<source src="http://www.usd21.org/m/lang/en/fp/audio/m4a/00-Introduction.m4a" type="audio/aac" />
+			<source src="http://www.usd21.org/m/lang/en/fp/audio/m4a/00-Introduction.m4az" type="audio/aac" />
 			<source id = "audio_link" type="audio/ogg" src="http://www.usd21.org/m/lang/en/fp/audio/ogg/00-Introduction.ogg" />
 
 		</audio>

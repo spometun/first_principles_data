@@ -50,6 +50,7 @@ void putHeader(pt::ptree& tree)
     tree.put("metadata.translator1_name", "Yauheni Sobaleu");
     tree.put("metadata.translator1_email", "sblfff@gmail.com");
     tree.put("metadata.translator1_date", "2015-12-20");
+    tree.put("audio_link", "???");
 }
 
 void addHtmlId(string* str, const string& id)
@@ -150,11 +151,9 @@ int main(int argc, const char* argv[])
     putHeader(tree);
     while(fpSource.getNextOrFail(node))
     {
-        //cout<<endl<<node.id <<": "<<*node.text;
         string text = *node.text;
         purify(text);
         tree.put(node.id + "_english", text);
-        //LOG("text = %s len = %zu", node.text->c_str(), strlen(node.text->c_str()));
         tree.put(node.id + "_translated" , translate(text));
         addHtmlId(node.text, node.id);
        // if(node.isLink) cout<<endl<<"link: "<<node.linkText;
