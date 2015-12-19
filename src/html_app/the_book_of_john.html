@@ -76,7 +76,7 @@ $('[data-role=page]').live('pageshow', function (event, ui) {
 });
 
 
-
+$(document.body).hide();
 $(document).ready(function() {
 $.getJSON("lang/ru/text/the_book_of_john.json", function(json)
 {
@@ -87,6 +87,7 @@ $.getJSON("lang/ru/text/the_book_of_john.json", function(json)
     {
         eval("document.getElementById('phrases.p" + i + "').innerHTML = json.phrases.p" + i + "_translated;");
     }
+	$(document.body).show();
 });
 });
 
