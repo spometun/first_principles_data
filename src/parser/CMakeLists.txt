@@ -17,6 +17,7 @@ HtmlParser.cpp
 Json.cpp
 HtmlFP.cpp
 SimpleLog.cpp
+Commands.cpp
 )
 
 set(hdr_files
@@ -27,6 +28,7 @@ HtmlParser.h
 Json.h
 HtmlFP.h
 SimpleLog.h
+Commands.h
 )
 
 find_package(Boost REQUIRED COMPONENTS filesystem system)
