@@ -1,0 +1,3 @@
+[submodule "audio"]
+	path = audio
+	url = git@github.com:spometun/first_principles_audio.git
