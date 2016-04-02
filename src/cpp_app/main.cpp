@@ -6,14 +6,14 @@
 
 
 
-#include "SimpleLog.h"
+#include "tools/SimpleLog.h"
 
-#include "StringUtils.h"
-#include "HtmlParser.h"
-#include "XmlSink.h"
-#include "Json.h"
-#include "HtmlFP.h"
-#include "Commands.h"
+#include "tools/StringUtils.h"
+#include "tools/HtmlParser.h"
+#include "tools/XmlSink.h"
+#include "tools/Json.h"
+#include "tools/HtmlFP.h"
+#include "tools/Commands.h"
 
 using namespace std;
 
@@ -24,7 +24,6 @@ void printUsageAndExit()
     cout << "as an output you will get filename.xml (if no errors)" << endl;
     exit(-1);
 }
-//shared_ptr<XmlSink> sink;
 
 void test1(const string& fileName)
 {

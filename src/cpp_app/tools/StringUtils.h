@@ -3,6 +3,7 @@
 #include <string>
 
 std::string loadFromFile(const std::string& fileName);
+void saveToFile(const std::string& fileName, const std::string& text);
 bool isDummy(const std::string& s);
 void rtrim(std::string& s);
 void ltrim(std::string& s);

@@ -41,7 +41,7 @@ string HtmlParser::getNextLink()
 void HtmlParser::write(const string& fileName) const
 {
     FILE* fout = fopen(fileName.c_str(), "wb");
-    ASSERT(fout);
+    ASSERT(fout, "Couldn't open file %s for writing", fileName.c_str());
     map<uint, string> closing;
     for(tree<htmlcxx::HTML::Node>::iterator it = _dom.begin(); it != _dom.end(); ++it)
     {

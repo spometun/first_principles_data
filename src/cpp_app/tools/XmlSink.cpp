@@ -66,7 +66,7 @@ void XmlSink::writeSectionEnd()
     _sections.pop_front();
 }
 
-void XmlSink::writePhrase(const Node& phrase, int number)
+void XmlSink::writePhrase(const Node&, int)
 {
 //    cout<<endl<<phrase.text;
 //    char sectionName[100];

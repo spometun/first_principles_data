@@ -24,6 +24,14 @@ string loadFromFile(const string& fileName)
     return res;
 }
 
+void saveToFile(const string& fileName, const string& text)
+{
+    FILE* fout = fopen(fileName.c_str(), "wb");
+    ASSERT(fout, "Couldn't open file %s for writing", fileName.c_str());
+    fwrite(text.c_str(), text.length(), 1, fout);
+    fclose(fout);
+}
+
 bool isDummy(const string& s)
 {
     string tmp = s;

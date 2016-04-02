@@ -8,5 +8,6 @@
 
 namespace pt = boost::property_tree;
 
-void savePtree(pt::ptree& tree, int level = 0);
-void test(const std::string& fileName);
+pt::ptree loadPtree(const std::string& fileName);
+void savePtree(const std::string& fileName, const pt::ptree& ptree);
+void testPrintPtree(pt::ptree& tree, int level = 0);

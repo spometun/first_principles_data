@@ -30,7 +30,8 @@ namespace boost { namespace property_tree { namespace json_parser
             else if (*b == char('\f')) result += char('\\'), result += char('f');
             else if (*b == char('\n')) result += char('\\'), result += char('n');
             else if (*b == char('\r')) result += char('\\'), result += char('r');
-            else if (*b == char('/')) result += char('\\'), result += char('/');
+           // else if (*b == char('/')) result += char('\\'), result += char('/');
+            else if (*b == char('/')) result += char('/');
             else if (*b == char('"'))  result += char('\\'), result += char('"');
             else if (*b == char('\\')) result += char('\\'), result += char('\\');
             else
@@ -57,10 +58,7 @@ namespace boost { namespace property_tree { namespace json_parser
 
 
 
-
-
-
-void savePtree(pt::ptree& tree, int level)
+void testPrintPtree(pt::ptree& tree, int level)
 {
     cout<<endl;
     for(pt::ptree::iterator it = tree.begin(); it != tree.end(); ++it)
@@ -77,18 +75,31 @@ void savePtree(pt::ptree& tree, int level)
         }
         cout<< " : " <<it->second.get_value<string>();
         cout<<endl;
-        savePtree(it->second, level + 1);
+        testPrintPtree(it->second, level + 1);
         for(int i = 0; i < level; i++) cout<<"    ";
         cout << "}" << endl;
     }
 }
 // << " "<< it->second.get_value<string>() << endl;
 
+
+pt::ptree loadPtree(const string& fileName)
+{
+    pt::ptree res;
+    pt::read_json(fileName, res);
+    return res;
+}
+
+void savePtree(const string& fileName, const pt::ptree& ptree)
+{
+    pt::write_json(fileName, ptree);
+}
+
 void test(const string& fileName)
 {
     pt::ptree tree;
     pt::read_xml(fileName, tree);
-    savePtree(tree, 0);
+    testPrintPtree(tree, 0);
     pt::write_xml(fileName + "zu", tree);
     pt::write_json(fileName + "zuj", tree);
 
