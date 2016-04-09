@@ -83,3 +83,19 @@ std::string translate(const std::string& s)
     ASSERT(! isDummy(s), "Internal error (dummy: %s)", s.c_str());
     return "???";
 }
+
+std::string getFileName(const std::string& filePath, bool isWithExtention)
+{
+    size_t begin = filePath.find_last_of("/");
+    if(begin == string::npos)
+    {
+        begin = 0;
+    }
+    string fileName = filePath.substr(begin + 1);
+    if(isWithExtention)
+    {
+        return fileName;
+    }
+    size_t end = fileName.find_last_of(".");
+    return fileName.substr(0, end);
+}

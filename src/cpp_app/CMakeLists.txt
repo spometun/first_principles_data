@@ -1,5 +1,6 @@
 project(fp)
 cmake_minimum_required(VERSION 2.8)
+FIND_PACKAGE(Curses REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11") # Enable C++11
 
 add_definitions(
@@ -41,4 +42,7 @@ target_link_libraries(link_id_creator fp_lib ${Boost_LIBRARIES} -lhtmlcxx )
 
 add_executable(link_http_creator link_http_creator.cpp)
 target_link_libraries(link_http_creator fp_lib ${Boost_LIBRARIES} -lhtmlcxx )
+
+add_executable(script_inserter script_inserter.cpp)
+target_link_libraries(script_inserter fp_lib ${Boost_LIBRARIES} -lhtmlcxx -lcurses )
 

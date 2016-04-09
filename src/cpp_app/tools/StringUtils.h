@@ -10,5 +10,6 @@ void ltrim(std::string& s);
 void trim(std::string& s);
 void replace_all(std::string &s, const char * s1, const char * s2);
 void purify(std::string& s);
+std::string getFileName(const std::string& filePath, bool isWithExtention = true);
 
 std::string translate(const std::string& s);
