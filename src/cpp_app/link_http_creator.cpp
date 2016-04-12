@@ -6,8 +6,8 @@ using namespace std;
 
 static void printUsageAndExit()
 {
-    printf("Adds scripture links id's to html and corresponding links to json");
-    printf("\nUsage: link_http_creator <some_study.html> <scriptures.json>\n");
+    printf("Adds Bible Gateway http scripture links to json");
+    printf("\nUsage: link_http_creator <scriptures.json>\n");
     exit(-1);
 }
 

@@ -75,6 +75,7 @@ int main(int argc, const char* argv[])
     {
         printUsageAndExit();
     }
+    LOG("**** process %s", argv[1]);
     string html = loadFromFile(argv[1]);
     pt::ptree json = loadPtree(argv[2]);
     size_t linkPos = -1;
@@ -125,7 +126,7 @@ int main(int argc, const char* argv[])
         json.put("scripture." + passageKey, "https://");
         N++;
     }
-    saveToFile(argv[1], html);
-    savePtree(argv[2], json);
+    //saveToFile(argv[1], html);
+    //savePtree(argv[2], json);
     LOG("%d links processed", N);
 }

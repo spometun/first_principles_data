@@ -111,12 +111,27 @@ const string g_Script = R"(
                               {
                                   for(var passage in json.scripture)
                                   {
-                                      var link = document.getElementById("link." + passage);
-                                      if(link != null)
-                                      {
-                                          link.href = json.scripture[passage];
-                                      }
-                                  }
+                                    var link = document.getElementById("link." + passage);
+                                    if(link != null)
+                                    {
+                                        link.href = json.scripture[passage];
+                                    }
+                                    link = document.getElementById("link2." + passage);
+                                    if(link != null)
+                                    {
+                                        link.href = json.scripture[passage];
+                                    }
+                                    link = document.getElementById("link3." + passage);
+                                    if(link != null)
+                                    {
+                                        link.href = json.scripture[passage];
+                                    }
+                                    link = document.getElementById("link4." + passage);
+                                    if(link != null)
+                                    {
+                                        link.href = json.scripture[passage];
+                                    }
+                               }
                               }).always(function(json) {
                                   NJsonsProcessed += 1;
                                   if(NJsonsProcessed == 2)
